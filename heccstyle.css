@@ -35,3 +35,7 @@ h1 {
     background-color: #4CAF50;
     color: tomato;
 }
+
+li {
+    display: inline;
+}
