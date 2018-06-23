@@ -47,6 +47,13 @@ li {
     width: 50%;
 }
 
+.othercenter {
+    display: block;
+    margin-left: 330px;
+    margin-right: 50px;
+    width: 50%;
+}
+
 /* Add a black background color to the top navigation */
 .select {
     background-color: black;
