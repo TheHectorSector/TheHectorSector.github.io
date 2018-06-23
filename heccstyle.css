@@ -39,3 +39,39 @@ h1 {
 li {
     display: inline;
 }
+
+.center {
+    display: block;
+    margin-left: 260px;
+    margin-right: 50px;
+    width: 50%;
+}
+
+/* Add a black background color to the top navigation */
+.select {
+    background-color: black;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.select a {
+    float: left;
+    color: lime;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.select a:hover {
+    background-color: #ddd;
+    color: lime;
+}
+
+/* Add a color to the active/current link */
+.select a.active {
+    background-color: #4CAF50;
+    color: lime;
+}
+

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hector Art</title>
+    <link rel="stylesheet" type="text/css" href="heccstyle.css">
+    <style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    padding: 20px;
+    color: blueviolet;
+}
+
+/* Center website */
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+
+.row {
+    margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: black;
+    padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+</style>
+  </head>
+  <body>
+    <h1>Hector Art</h1>		
+    <div class="topnav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="contact.html">Contact the Hector Sector</a></li>
+      <li><a href="creations.html">Creations in the Name of Hector</a></li>
+      <li><a href="ufferfis.html">Ufferfis</a></li>
+    </div>
+    <div>
+      <li><a href="creations.html">Back</a></li>
+    </div>
+
+<hr>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="Images/hector_reflector.png" alt="Hector Reflector" style="width: 100%">
+      <h3>Hector Reflector</h3>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="Images/pepter.png" alt="Pepter" style="width: 100%">
+      <h3>Pepter</h3>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="Images/vector_hector.png" alt="Vector Hector" style="width: 100%">
+      <h3>Vector Hector</h3>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="Images/hector_sector.png" alt="Hector Sector" style="width: 100%">
+      <h3>Hector Sector</h3>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+<div class="content">
+  <img src="/w3images/p3.jpg" alt="Bear" style="width:100%">
+</div>
+
+<!-- END MAIN -->
+</div>
+
+</body>
+</html>
