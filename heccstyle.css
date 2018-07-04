@@ -82,3 +82,84 @@ li {
     color: lime;
 }
 
+.k {
+    color: springgreen;
+}
+
+.marquee-outer {
+    height: 100px;	
+    overflow: hidden;
+    position: relative;
+    color: springgreen;
+ }
+ .marquee-inner {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+  /* Starting position */
+  -moz-transform:translateX(100%);
+  -webkit-transform:translateX(100%);	
+  transform:translateX(100%);
+  /* Apply animation to this element */	
+  -moz-animation: scroll-left 28s linear infinite;
+  -webkit-animation: scroll-left 28s linear infinite;
+  animation: scroll-left 28s linear infinite;
+ }
+ /* Move it (define the animation) */
+ @-moz-keyframes scroll-left {
+  0%   { -moz-transform: translateX(100%); }
+  100% { -moz-transform: translateX(-100%); }
+ }
+ @-webkit-keyframes scroll-left {
+  0%   { -webkit-transform: translateX(100%); }
+  100% { -webkit-transform: translateX(-100%); }
+ }
+ @keyframes scroll-left {
+  0%   { 
+  -moz-transform: translateX(100%); /* Browser bug fix */
+  -webkit-transform: translateX(100%); /* Browser bug fix */
+  transform: translateX(100%); 		
+  }
+  100% { 
+  -moz-transform: translateX(-100%); /* Browser bug fix */
+  -webkit-transform: translateX(-100%); /* Browser bug fix */
+  transform: translateX(-100%); 
+  }
+ }
+
+ .colorchange {
+    -webkit-animation: color-change 1s infinite;
+    -moz-animation: color-change 1s infinite;
+    -o-animation: color-change 1s infinite;
+    -ms-animation: color-change 1s infinite;
+    animation: color-change 1s infinite;
+}
+
+@-webkit-keyframes color-change {
+    0% { color: deeppink; }
+    50% { color: hotpink; }
+    100% { color: deeppink; }
+}
+@-moz-keyframes color-change {
+    0% { color: deeppink; }
+    50% { color: hotpink; }
+    100% { color: deeppink; }
+}
+@-ms-keyframes color-change {
+    0% { color: deeppink; }
+    50% { color: hotpink; }
+    100% { color: deeppink; }
+}
+@-o-keyframes color-change {
+    0% { color: deeppink; }
+    50% { color: hotpink; }
+    100% { color: deeppink; }
+}
+@keyframes color-change {
+    0% { color: deeppink; }
+    50% { color: hotpink; }
+    100% { color: deeppink; }
+}
