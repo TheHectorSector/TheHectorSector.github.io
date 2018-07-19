@@ -1,0 +1,174 @@
+body {
+    background-image: url(Images/matrix.gif);
+    color: white;
+}
+
+h1 {
+    color: white;
+    margin-left:20px;
+}
+
+h2 {
+    color: lime;
+}
+
+mark {
+    background-color: black;
+    color: white;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: black;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: lime;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: lime;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: lime;
+}
+
+li {
+    display: inline;
+}
+
+.center {
+    display: block;
+    margin-left: 260px;
+    margin-right: 50px;
+    width: 50%;
+}
+
+.othercenter {
+    display: block;
+    margin-left: 330px;
+    margin-right: 50px;
+    width: 50%;
+}
+
+/* Add a black background color to the top navigation */
+.select {
+    background-color: black;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.select a {
+    float: left;
+    color: lime;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.select a:hover {
+    background-color: #ddd;
+    color: lime;
+}
+
+/* Add a color to the active/current link */
+.select a.active {
+    background-color: #4CAF50;
+    color: lime;
+}
+
+.k {
+    color: springgreen;
+}
+
+.marquee-outer {
+    height: 100px;	
+    overflow: hidden;
+    position: relative;
+    color: lime;
+ }
+ .marquee-inner {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+  /* Starting position */
+  -moz-transform:translateY(-100%);
+  -webkit-transform:translateY(-100%);	
+  transform:translateY(-100%);
+  /* Apply animation to this element */	
+  -moz-animation: scroll-left 5s linear infinite;
+  -webkit-animation: scroll-left 5s linear infinite;
+  animation: scroll-left 5s linear infinite;
+ }
+ /* Move it (define the animation) */
+ @-moz-keyframes scroll-left {
+  0%   { -moz-transform: translateY(-100%); }
+  100% { -moz-transform: translateY(100%); }
+ }
+ @-webkit-keyframes scroll-left {
+  0%   { -webkit-transform: translateY(-100%); }
+  100% { -webkit-transform: translateY(100%); }
+ }
+ @keyframes scroll-left {
+  0%   { 
+  -moz-transform: translateY(-100%); /* Browser bug fix */
+  -webkit-transform: translateY(-100%); /* Browser bug fix */
+  transform: translateY(-100%); 		
+  }
+  100% { 
+  -moz-transform: translateY(100%); /* Browser bug fix */
+  -webkit-transform: translateY(100%); /* Browser bug fix */
+  transform: translateY(100%); 
+  }
+ }
+
+ .colorchange {
+    -webkit-animation: color-change 1s infinite;
+    -moz-animation: color-change 1s infinite;
+    -o-animation: color-change 1s infinite;
+    -ms-animation: color-change 1s infinite;
+    animation: color-change 1s infinite;
+}
+
+@-webkit-keyframes color-change {
+    0% { color: deeppink; }
+    50% { color: hotpink; }
+    100% { color: deeppink; }
+}
+@-moz-keyframes color-change {
+    0% { color: deeppink; }
+    50% { color: hotpink; }
+    100% { color: deeppink; }
+}
+@-ms-keyframes color-change {
+    0% { color: deeppink; }
+    50% { color: hotpink; }
+    100% { color: deeppink; }
+}
+@-o-keyframes color-change {
+    0% { color: deeppink; }
+    50% { color: hotpink; }
+    100% { color: deeppink; }
+}
+@keyframes color-change {
+    0% { color: deeppink; }
+    50% { color: hotpink; }
+    100% { color: deeppink; }
+}
