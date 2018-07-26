@@ -86,6 +86,10 @@ li {
     color: springgreen;
 }
 
+.spoofylink {
+    color: blueviolet;
+}
+
 .marquee-outer {
     height: 100px;	
     overflow: hidden;
