@@ -41,10 +41,8 @@ li {
 }
 
 .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    text-align:center;
+    display:block;
 }
 
 /* Add a black background color to the top navigation */
