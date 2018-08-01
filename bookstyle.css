@@ -45,11 +45,6 @@ li {
     display:block;
 }
 
-.right {
-    text-align: right;
-    display: block;
-}
-
 /* Add a black background color to the top navigation */
 .select {
     background-color: black;
@@ -78,53 +73,12 @@ li {
     color: lime;
 }
 
+.k {
+    color: springgreen;
+}
+
 .spoofylink {
     color: blueviolet;
-}
-
-.container {
-    position: relative;
-    width: auto;
-    text-align:center;
-    display:block;
-}
-
-.hoverimage {
-    
-    text-align:center;
-    width: auto;
-    height: auto;
-}
-
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: black;
-}
-
-.container:hover .overlay {
-    opacity: 1;
-}
-
-.text {
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: 
-    translate(-50%, -50%);
-    -ms-transform:
-    translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
 }
 
 .marquee-outer {
@@ -205,30 +159,6 @@ li {
     100% { color: deeppink; }
 }
 
-.lightcoral {
-    color: lightcoral;
-}
-.tomato {
-    color: tomato;
-}
-.springgreen {
-    color: springgreen;
-}
-.mediumpurple {
-    color: mediumpurple;
-}
-.crimson {
-    color: crimson;
-}
-.lightseagreen {
-    color: lightseagreen;
-}
-.orchid {
-    color: orchid;
-}
-.mediumseagreen {
-    color: mediumseagreen;
-}
-.cornflowerblue {
-    color: cornflowerblue;
+.book {
+    font-family: Fixed;
 }
