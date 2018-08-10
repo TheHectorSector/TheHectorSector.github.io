@@ -3,9 +3,12 @@ body {
     color: white;
 }
 
+@font-face { font-family: Death Hector; src: url('Death\ Hector.otf'); }
+
 h1 {
     color: white;
     margin-left:20px;
+    font-family: Death Hector;
 }
 
 h2 {

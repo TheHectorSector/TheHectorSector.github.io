@@ -5,7 +5,7 @@
 body {
     background-color: black;
     padding: 20px;
-    color: blueviolet;
+    color: white;
 }
 
 /* Center website */
@@ -17,7 +17,11 @@ body {
 h1 {
     font-size: 50px;
     word-break: break-all;
+    color: white;
+    font-family: Death Hector
 }
+
+@font-face { font-family: Death Hector; src: url('Death\ Hector.otf'); }
 
 .row {
     margin: 8px -16px;
