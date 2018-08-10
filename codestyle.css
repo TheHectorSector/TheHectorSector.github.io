@@ -150,26 +150,26 @@ li {
 
 @-webkit-keyframes color-change {
     0% { color: deeppink; }
-    50% { color: hotpink; }
+    50% { color: tomato; }
     100% { color: deeppink; }
 }
 @-moz-keyframes color-change {
     0% { color: deeppink; }
-    50% { color: hotpink; }
+    50% { color: tomato; }
     100% { color: deeppink; }
 }
 @-ms-keyframes color-change {
     0% { color: deeppink; }
-    50% { color: hotpink; }
+    50% { color: tomato; }
     100% { color: deeppink; }
 }
 @-o-keyframes color-change {
     0% { color: deeppink; }
-    50% { color: hotpink; }
+    50% { color: tomato; }
     100% { color: deeppink; }
 }
 @keyframes color-change {
     0% { color: deeppink; }
-    50% { color: hotpink; }
+    50% { color: tomato; }
     100% { color: deeppink; }
 }

@@ -135,29 +135,29 @@ li {
 }
 
 @-webkit-keyframes color-change {
-    0% { color: deeppink; }
-    50% { color: hotpink; }
-    100% { color: deeppink; }
+    0% { color: white; }
+    50% { color: tomato; }
+    100% { color: white; }
 }
 @-moz-keyframes color-change {
-    0% { color: deeppink; }
-    50% { color: hotpink; }
-    100% { color: deeppink; }
+    0% { color: white; }
+    50% { color: tomato; }
+    100% { color: white; }
 }
 @-ms-keyframes color-change {
-    0% { color: deeppink; }
-    50% { color: hotpink; }
-    100% { color: deeppink; }
+    0% { color: white; }
+    50% { color: tomato; }
+    100% { color: white; }
 }
 @-o-keyframes color-change {
-    0% { color: deeppink; }
-    50% { color: hotpink; }
-    100% { color: deeppink; }
+    0% { color: white; }
+    50% { color: tomato; }
+    100% { color: white; }
 }
 @keyframes color-change {
-    0% { color: deeppink; }
-    50% { color: hotpink; }
-    100% { color: deeppink; }
+    0% { color: white; }
+    50% { color: tomato; }
+    100% { color: white; }
 }
 
 .book {
