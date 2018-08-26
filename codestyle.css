@@ -3,12 +3,9 @@ body {
     color: white;
 }
 
-@font-face { font-family: Death Hector; src: url('Death\ Hector.otf'); }
-
 h1 {
     color: white;
     margin-left:20px;
-    font-family: Death Hector;
 }
 
 h2 {
@@ -150,26 +147,26 @@ li {
 
 @-webkit-keyframes color-change {
     0% { color: deeppink; }
-    50% { color: tomato; }
+    50% { color: hotpink; }
     100% { color: deeppink; }
 }
 @-moz-keyframes color-change {
     0% { color: deeppink; }
-    50% { color: tomato; }
+    50% { color: hotpink; }
     100% { color: deeppink; }
 }
 @-ms-keyframes color-change {
     0% { color: deeppink; }
-    50% { color: tomato; }
+    50% { color: hotpink; }
     100% { color: deeppink; }
 }
 @-o-keyframes color-change {
     0% { color: deeppink; }
-    50% { color: tomato; }
+    50% { color: hotpink; }
     100% { color: deeppink; }
 }
 @keyframes color-change {
     0% { color: deeppink; }
-    50% { color: tomato; }
+    50% { color: hotpink; }
     100% { color: deeppink; }
 }
