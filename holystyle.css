@@ -4,7 +4,6 @@ body {
 }
 
 h1 {
-    color: blueviolet;
     margin-left:20px
 }
 
@@ -238,4 +237,8 @@ li {
 }
 .deeppink {
     color: deeppink;
+}
+
+.bluviolet {
+    color: blueviolet;
 }
